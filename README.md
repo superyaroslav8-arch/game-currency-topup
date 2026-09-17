@@ -1,2 +1,32 @@
-# game-currency-topup
-Free interface for official game virtual currency operations. No ads. Shows only officially available methods.
+# GameCredit — зачисление игровой валюты
+
+Бесплатный интерфейс без рекламы. Используются **только официально разрешённые** разработчиками механизмы работы с виртуальной валютой.
+
+Если у игры нет публичного API / gift-code API / партнёрского API от разработчика — сайт корректно сообщает, что автоматическое зачисление через сторонние сайты официально недоступно. Никаких фиктивных «Готово».
+
+## Возможности
+
+- Выбор игры + поиск
+- Ввод никнейма / ID
+- Количество (название валюты меняется автоматически)
+- Реальная проверка доступности официального механизма
+- История операций (localStorage)
+- Модальное окно «Как это работает?» при первом визите + постоянная кнопка
+- Полностью адаптивный дизайн (iPhone, iPad, десктоп)
+
+## Ссылки
+
+- **Репозиторий:** https://github.com/superyaroslav8-arch/game-currency-topup
+- **Сайт (GitHub Pages):** https://superyaroslav8-arch.github.io/game-currency-topup/
+
+## Как включить GitHub Pages (один раз)
+
+1. Откройте репозиторий → **Settings** → **Pages**
+2. В разделе **Build and deployment** → **Source** выберите **GitHub Actions**
+3. Workflow уже добавлен (`.github/workflows/pages.yml`). После следующего push или ручного запуска workflow сайт станет доступен.
+
+Либо выберите Source = **Deploy from a branch** → Branch: `main` / root.
+
+## Технологии
+
+Чистый HTML + CSS + JavaScript. Без фреймворков, без backend, без рекламы.
